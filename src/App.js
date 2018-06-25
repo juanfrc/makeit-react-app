@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
@@ -6,6 +7,7 @@ class App extends Component {
     return (
       <div>
         <h1>Hola Mundo</h1>
+        <Button bsStyle="primary">Primary</Button>
       </div>
     )
   }
